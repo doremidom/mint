@@ -1,0 +1,158 @@
+body {
+	font-family: 'Nunito', sans-serif;
+	color: black;
+	font-size: 15px;
+	font-weight: 300;
+	padding: 0; 
+	margin: 0;
+
+}
+h2{
+	font-weight: 300;
+	font-size: 22px;
+}
+.container {
+	background: white;
+	padding: 10px;
+	height: 650px;
+	margin: auto;
+	width: 780px;
+	box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.2);
+	margin-bottom: 50px;
+}
+a
+{
+	text-decoration: none;
+	color: black;
+}
+header {
+	padding:10px;
+	margin: auto;
+	width: 800px;
+	margin-top: 50px;
+	height: 43px;
+}
+footer{
+	width: 800px;
+	margin: auto;
+	color: darkgray;
+	text-align: center;
+	margin-top: 50px;
+	height: 300px;
+}
+footer a{
+	padding: 2%;
+	color: darkgray
+}
+a:hover {
+	color: darkgray;
+	text-decoration: underline;
+}
+.logo{
+	width: 73px;
+	height:auto;
+}
+.img-circle {
+    border-radius: 50%;
+    height: 25px;
+}
+.info{
+	width: 200px;
+}
+button{
+	background-color: #45cae6;
+	border-width: 0px;
+	padding: 6px 10px 6px;
+	border-color: #D3D3D3;
+	border-style: solid;
+	margin-right: 30px;
+	margin-bottom: 5px;
+	font-family: 'Roboto';
+	border-radius: 2px;
+	margin-top:20px;
+	color: white;
+	width: 92px;
+	height: 34px;
+	font-size: 14px;
+}
+p.tiny{
+	font-size: 11px;
+	color: #767676;
+	font-weight: 300;
+	padding-top: 0;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+p.tiny a{
+	color: #45cae6;
+}
+right{
+	float:right;
+}
+left{
+	float:left;
+}
+#form{
+	padding-top: 30px;
+	padding-left: 40px;
+	padding-right: 60px;
+	font-weight: 300;
+	width: 400px;
+	margin-right: 20px;
+}
+#form-content{
+	border-right: 1px solid darkgray;
+	width: 400px;
+	padding-right: 90px;
+
+}
+#sidebar{
+	background-color: #F5F5F5;
+	color: darkgray;
+	font-size: 12px;
+	width: 180px;
+	margin: 10px;
+	margin-top: 50px;
+	padding: 15px;
+	color: #666;
+	height: 535px;
+}
+#remember{
+	display: inline-block;
+	padding-bottom: 10px
+}
+label {
+  display: block;
+  padding-left: 15px;
+  text-indent: -15px;
+  padding-top: 20px;
+}
+li{
+	margin-bottom: 10px;
+}
+ul{
+	padding-left: 25px;
+}
+input{
+	width: 314px;
+	height: 28px;
+}
+input[type="checkbox" i]{
+	border-radius: 3px; 
+	background: white;
+  width: 13px;
+  height: 11px;
+	vertical-align: bottom;
+  position: relative;
+  top: -1px;
+  *overflow: hidden;
+  padding: 0;
+  margin: 0;
+  margin-right: 1px;
+   -ms-transform: scale(2); /* IE */
+  -moz-transform: scale(2); /* FF */
+  zoom: 2;
+}
+.subheader{
+	margin-bottom:50px;
+}
